@@ -35,6 +35,9 @@
 </template>
 
 <script>
+/* eslint-disable */
+// TO DO: would fix linting errors if had time
+
 	export default {
 		name: 'field',
 

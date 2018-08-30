@@ -19,6 +19,7 @@ export default {
         default: 1
       }
     },
+    // TO DO: move filters if used more than once
     filters: {
       currencydecimal(value) {
         return value.toFixed(2);

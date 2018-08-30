@@ -45,7 +45,7 @@ Alternatively, if you go down your own route, please include instructions for th
 * CSS: I've abstracted common styles into variables inside the scss folder.
 * JS: I've abstracted the store logic into a module so it's scalable.
 * JS: I've created a separate API file to decouple the API & store logic.
-
+* TO DO: add tests 
 
 
 Email as an attachment or a link the git bundled repository showing your commit history with all your commits on the master branch:
