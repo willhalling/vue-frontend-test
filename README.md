@@ -40,10 +40,13 @@ Alternatively, if you go down your own route, please include instructions for th
 
 ## The Deliverable
 
-Replace this part of this README.md with:
 
-  1. A covering note explaining the technology choices you have made, if any.
-  1. Any instructions required to run your solution and tests in a Mac OS environment.
+* CSS: I've used BEM as the CSS naming convention.
+* CSS: I've abstracted common styles into variables inside the scss folder.
+* JS: I've abstracted the store logic into a module so it's scalable.
+* JS: I've created a separate API file to decouple the API & store logic.
+
+
 
 Email as an attachment or a link the git bundled repository showing your commit history with all your commits on the master branch:
 
