@@ -1,0 +1,26 @@
+.priceIndex {
+  background-color: $black;
+  color: $white;
+  padding: 30px;
+  box-shadow: $box-shadow;
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: $text-m;
+  }
+  &__listItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__currency {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: $text-xs;
+  }
+}
